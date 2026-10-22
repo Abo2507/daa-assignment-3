@@ -1,0 +1,7 @@
+reachable: parent_edge=[-1, 0, 1, 3, -1, -1], route=[0, 1, 2, 3], cost=1
+source: parent_edge=[-1, 0, 1, 3, -1, -1], route=[0], cost=0
+unreachable: parent_edge=[-1, 0, 1, 3, -1, -1], route=[], cost=no route
+parallel: parent_edge=[-1, 0, 2, 4], route=[0, 1], cost=2
+tied: parent_edge=[-1, 0, 2, 4], route=[0, 2, 3], cost=1
+nonzero source: parent_edge=[0, 1, -1, -1], route=[2, 0, 1], cost=4
+PASS: 6 route cases and a 100000-vertex route

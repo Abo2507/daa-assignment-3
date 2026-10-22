@@ -1,0 +1,5 @@
+Java: 25.0.4.1+1-LTS-5; VM: Java HotSpot(TM) 64-Bit Server VM
+OS: Windows 11 10.0 amd64; processors: 12; max heap: 402653184
+{"m":4000,"n":1000,"kruskal_ms":[1.2106,1.0365,1.0323],"prim_median_ms":1.2532,"prim_ms":[1.2532,1.3995,1.2091],"kruskal_median_ms":1.0365,"verified":true}
+{"m":40000,"n":10000,"kruskal_ms":[21.316,10.2845,11.1953],"prim_median_ms":18.6506,"prim_ms":[18.6773,18.6506,18.0958],"kruskal_median_ms":11.1953,"verified":true}
+{"m":250000,"n":100000,"kruskal_ms":[143.712,185.3861,140.0964],"prim_median_ms":294.4824,"prim_ms":[226.8444,294.4824,378.0932],"kruskal_median_ms":143.712,"verified":true}

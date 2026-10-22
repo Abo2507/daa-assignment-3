@@ -1,0 +1,12 @@
+PASS compilation: 0.766s (limit 60s)
+PASS 595 original cases, repeated in one process: 1190 responses in 0.141s (limit 20s)
+PASS: alternative valid witnesses accepted and invalid witnesses rejected for MST/SCC/topo/DAG; parent cycle rejected
+reachable: parent_edge=[-1, 0, 1, 3, -1, -1], route=[0, 1, 2, 3], cost=1
+source: parent_edge=[-1, 0, 1, 3, -1, -1], route=[0], cost=0
+unreachable: parent_edge=[-1, 0, 1, 3, -1, -1], route=[], cost=no route
+parallel: parent_edge=[-1, 0, 2, 4], route=[0, 1], cost=2
+tied: parent_edge=[-1, 0, 2, 4], route=[0, 2, 3], cost=1
+nonzero source: parent_edge=[0, 1, -1, -1], route=[2, 0, 1], cost=4
+PASS: 6 route cases and a 100000-vertex route
+PASS 20 stress batches (each large request repeated with ping), all under 20s at -Xmx384m
+PASS benchmark: 3 graph sizes, 3 measured samples per algorithm, every forest verified

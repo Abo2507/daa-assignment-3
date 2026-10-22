@@ -1,0 +1,182 @@
+[
+  {
+    "name": "dsu-full",
+    "n": 100000,
+    "m_or_q": 250000,
+    "seconds": 0.5905937999486923,
+    "status": "PASS",
+    "input_sha256": "0eb208ccf79655684e0f0a7592c317651289b9bfba7a04058c50002ff33ad666",
+    "output_sha256": "5f8d6c00e9f0eb0cb2230548f1ea2189d20f98ce0a4885777988c05f5eaa52ae"
+  },
+  {
+    "name": "scc-full-chain",
+    "n": 100000,
+    "m_or_q": 250000,
+    "seconds": 0.7228500999044627,
+    "status": "PASS",
+    "input_sha256": "5e17ccc9044e163aebb053e08c70620d5b2c8c662b6a83e020934a1d0e268a4f",
+    "output_sha256": "a0b5199db3f57966da33b71ad2249e881d3ec9b2ac28b4648c3f5a2958cb2104"
+  },
+  {
+    "name": "topo-full-chain",
+    "n": 100000,
+    "m_or_q": 250000,
+    "seconds": 0.4385391999967396,
+    "status": "PASS",
+    "input_sha256": "14f2673ae5e4b318b72d3fe934800d8ea954287d61ea47a993fd1101d0cf2b5b",
+    "output_sha256": "d5e8b42d1ebc7fc87a8fff2919df6a20789f9570dda2b30cad89a0f788aa357c"
+  },
+  {
+    "name": "scc-full-ring",
+    "n": 100000,
+    "m_or_q": 250000,
+    "seconds": 0.45442340010777116,
+    "status": "PASS",
+    "input_sha256": "8d9325655f77bae7c6a0a82112fb62e79fa7e0227999a72bc2d2bc6fe81e5002",
+    "output_sha256": "312250bfcf392854034c7d194c46e895c8b51bc5f1deb7a4b4d9d20f77d5d8cd"
+  },
+  {
+    "name": "topo-full-cycle",
+    "n": 100000,
+    "m_or_q": 250000,
+    "seconds": 0.36445700004696846,
+    "status": "PASS",
+    "input_sha256": "e2d89e4eb44b19b100563a187186af7bd2ef0e5bd68a6ce9064de75f9cae1133",
+    "output_sha256": "807a10e96a0844e43d234e987042ab79344f3ff09acdf91977204536b809fe5c"
+  },
+  {
+    "name": "dag-full-negative",
+    "n": 100000,
+    "m_or_q": 250000,
+    "seconds": 0.4739611999830231,
+    "status": "PASS",
+    "input_sha256": "2ce7c2dbbeebc5199846eafa56ffcd1ced6b9165e287d63fdd989a9d759fdeaa",
+    "output_sha256": "6832db3f3ec6711bf5e4ad4c40a3d7fee1477265c642bd5ceb719758a05bb041"
+  },
+  {
+    "name": "dag-deep-positive",
+    "n": 100000,
+    "m_or_q": 99999,
+    "seconds": 0.33014790003653616,
+    "status": "PASS",
+    "input_sha256": "5ce310e52bf2624c82be098b578ad3c9ebe65bbb6b2bbdf980cbd6af055f9739",
+    "output_sha256": "18aac0d8cf93e86ef04bd1f059682955f68693a5d4899d22690f0d1a3f5d8d6c"
+  },
+  {
+    "name": "dag-large-unreachable-cycle",
+    "n": 100000,
+    "m_or_q": 250000,
+    "seconds": 0.3935259999707341,
+    "status": "PASS",
+    "input_sha256": "871513145fc5ffebe3dcce8a2e7fb0b4963ab2777d14d5cce0c0859cb83a55c9",
+    "output_sha256": "2eb144956a0e5705e277c2b6668c920cd1302e759182e3982d1510e2325489f6"
+  },
+  {
+    "name": "kruskal-full-disconnected-False",
+    "n": 100000,
+    "m_or_q": 250000,
+    "seconds": 0.7480593000072986,
+    "status": "PASS",
+    "input_sha256": "1e59d9df98537ae8dd3841b6e606069f4040d88e3a0b3ece21cde84c4e051fee",
+    "output_sha256": "80fa9a0963ad08672d41a221fcee17432458fb2f5f172136a255640c8b457e6a"
+  },
+  {
+    "name": "prim-full-disconnected-False",
+    "n": 100000,
+    "m_or_q": 250000,
+    "seconds": 0.7407522000139579,
+    "status": "PASS",
+    "input_sha256": "8b38d1edc88da017bca3b7281b0237fa2efec0e092f8e250dac48d0a8d19b87e",
+    "output_sha256": "eff2c4221767a994c664bf54b57875bd8a48080367d1016fd06748d23482fad7"
+  },
+  {
+    "name": "kruskal-full-disconnected-True",
+    "n": 100000,
+    "m_or_q": 250000,
+    "seconds": 0.7228530999273062,
+    "status": "PASS",
+    "input_sha256": "2850bb9deb5563674da9549972a5f4076498860375f36e0393a4bb349b44c8b7",
+    "output_sha256": "2d7ab4c81b843ac19f511e40d08da6bfcee3df986695567c1a8ffec292dfa270"
+  },
+  {
+    "name": "prim-full-disconnected-True",
+    "n": 100000,
+    "m_or_q": 250000,
+    "seconds": 0.6966566999908537,
+    "status": "PASS",
+    "input_sha256": "76f1a05e0bd9d753e5d00e1b6cc51f9fc42b115e12cea459cc56c5bf642df696",
+    "output_sha256": "2d7ab4c81b843ac19f511e40d08da6bfcee3df986695567c1a8ffec292dfa270"
+  },
+  {
+    "name": "scc-dense",
+    "n": 708,
+    "m_or_q": 250000,
+    "seconds": 0.6789416000247002,
+    "status": "PASS",
+    "input_sha256": "ebb63d073d2acbba6fa5b574fde019113622a276fb30b63db9279de3865a5869",
+    "output_sha256": "e6cc9018c7479aa44912eccea648698332ffce89be0c36d5676c74c8c6499144"
+  },
+  {
+    "name": "topo-dense",
+    "n": 708,
+    "m_or_q": 250000,
+    "seconds": 0.28159609995782375,
+    "status": "PASS",
+    "input_sha256": "98fd2cdecd2c9a1faf381fa9dcfa2f865de06490d1553c97858d61b6944b88d0",
+    "output_sha256": "69321fe5546f7b694e8178327da2d011969b252aa29647c0018fdcb848b6393e"
+  },
+  {
+    "name": "dag-dense",
+    "n": 708,
+    "m_or_q": 250000,
+    "seconds": 0.3481267999159172,
+    "status": "PASS",
+    "input_sha256": "c7ed6b7daebcc18af3026404a46da80b52c8c8e9963d5cb6767799e8185fc1d9",
+    "output_sha256": "0adb898bbc9c71aafb1015f2e71cdc8810a46105c01bc1b0ee5d80d59ca20f96"
+  },
+  {
+    "name": "kruskal-max-isolates",
+    "n": 100000,
+    "m_or_q": 0,
+    "seconds": 0.12342920002993196,
+    "status": "PASS",
+    "input_sha256": "b288a719c91f2aa06732e5a9981ed159664a06809b0fd1cbc359d30e24ec06eb",
+    "output_sha256": "262195ce503681771cdde428ada31e3164b9219b790ee8f4059660aa81f5630f"
+  },
+  {
+    "name": "prim-max-isolates",
+    "n": 100000,
+    "m_or_q": 0,
+    "seconds": 0.11501259997021407,
+    "status": "PASS",
+    "input_sha256": "33f6a6d04b4b3dd5e89040c9bcd51f15be2f9b74731de109a6c84144b0a7ce21",
+    "output_sha256": "d6ac07852d0f79e5ef9674c725d5187cef5c3f7ef97507f1e84e2eb009e9bfde"
+  },
+  {
+    "name": "scc-max-isolates",
+    "n": 100000,
+    "m_or_q": 0,
+    "seconds": 0.16574249998666346,
+    "status": "PASS",
+    "input_sha256": "5142652a5490edcb56e698812c1026bafe60e69a907bfd33066ac3790b93bc90",
+    "output_sha256": "ccda06cbaba202005bfb8a9fd76c3d9f158676f3b708b70324cfdf9af4921705"
+  },
+  {
+    "name": "topo-max-isolates",
+    "n": 100000,
+    "m_or_q": 0,
+    "seconds": 0.1621508999960497,
+    "status": "PASS",
+    "input_sha256": "14e626cb86d0ed66da0bc3933d1e82707065b0ce51c842b42bfceb8f7fb21d9f",
+    "output_sha256": "63d38995d640b9f4d09da8312ab100a1552bc9c41a0e9ac993d1f5b6491cf6c4"
+  },
+  {
+    "name": "dag-max-isolates",
+    "n": 100000,
+    "m_or_q": 0,
+    "seconds": 0.15895049995742738,
+    "status": "PASS",
+    "input_sha256": "bfac8cac43ebc0b49512514d62817ae7d604de0b6ec07233d84bab728b6d89a3",
+    "output_sha256": "36b00d2302b7609c56d41f9dba84872813917f598dcc1aafa1499903f967b0cc"
+  }
+]
